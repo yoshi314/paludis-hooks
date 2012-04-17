@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
 [[ -x /usr/bin/eix-update ]] || exit 0
 source ${PALUDIS_EBUILD_DIR}/echo_functions.bash
 ebegin "Updating eix database"
